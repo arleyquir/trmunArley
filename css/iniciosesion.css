@@ -1,0 +1,121 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#93E1C5;
+}
+
+.cont{
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left:32%;
+    margin-top:35px;
+}
+
+.cont h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0D9D97;
+}
+
+.inp {
+    margin-bottom: 10px;
+    color: #0D9D97;
+}
+
+.inp label {
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+.inp input{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+    border-color: #0D9D97;
+    outline: none;
+}
+
+.inp button {
+    width: 100%;
+    background-color:#93E1C5;
+    color:#333;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top:25px;
+}
+
+.inp button:hover {
+    background-color:#0D9D97 ;
+}
+
+@media (max-width: 576px) 
+{ 
+    
+    .cont{
+        max-width: 300px;
+        height:300px;
+        padding: 15px;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin-left:10%;
+        margin-right:10%;
+        margin-top:35px;
+    }
+
+    .cont h2 {
+        margin-bottom:10px;
+        font-size:10px;
+        
+    }
+
+    .inp { font-size:10px;}
+
+    .ols , .crer {font-size:10px;
+
+    }
+
+    
+} 
+
+@media ((min-width:577px) and (max-width:900px)) 
+{ 
+    
+    .cont{
+        max-width: 300px;
+        height:300px;
+        padding: 15px;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin-left:28%;
+        margin-right:10%;
+        margin-top:35px;
+    }
+
+    .cont h2 {
+        margin-bottom:10px;
+        font-size:10px;
+        
+    }
+
+    .inp { font-size:10px;}
+
+    .ols , .crer {font-size:10px;
+
+    }
+
+    
+} 
+
+
+
+

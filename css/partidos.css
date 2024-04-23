@@ -1,0 +1,106 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#93E1C5;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.match-list {
+    display: grid;
+    grid-template-columns:33.2% 33.2% 33.2%;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.match-card {
+    width:100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0.5, 0, 0.5);
+}
+
+.match-info {
+    padding: 25px;
+}
+.match-info p {
+    line-height: 2; 
+}
+.match-info h3 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.match-info p {
+    margin: 0;
+}
+
+.played {
+    background-color: #28a745;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.upcoming {
+    background-color: #ffc107;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+@media (max-width: 576px) 
+{  .container {
+    max-width:90%;
+    padding: 5px;
+    margin-left:4%;
+}
+
+.match-list {
+    display:block;
+    gap:5px;
+    margin-top:10px;
+}
+
+.match-card {
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0.5, 0, 0.5);
+    margin-top:10px;
+}
+
+.match-info {
+    padding:12px;
+}
+.match-info p {
+    line-height:1.8; 
+}
+.match-info h3 {
+    margin-top: 0;
+    font-size:15px;
+    margin-bottom:5px;
+}
+
+.match-info p {
+    margin: 0;
+    font-size:15px;
+}
+
+
+
+
+
+
+ } 

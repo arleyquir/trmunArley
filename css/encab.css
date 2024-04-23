@@ -1,0 +1,385 @@
+
+
+header {
+    color: #0D9D97;
+    padding: 20px 0;
+    text-align: center;
+    background-color:#FFFFFF;
+    display: flex;
+    border: 1px solid  #0D9D97;
+}
+
+header .logo { width: 150px;
+     height: 150px;}
+
+.log{
+    margin-left:11%;
+}
+
+.logi{
+    margin-right:10%;
+}
+
+.let{ margin-left:10%;
+    margin-right:9%;
+    margin-top:0.5%;
+
+}
+
+nav a {
+    color:#000000;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.6s ease-in-out;
+
+}
+
+nav a:hover {
+    color:#0D9D97;
+}
+@media (max-width:359px) 
+{ header{padding: 20px 0;
+    width:100%;
+    align-items: center;
+}
+header .logo { width: 35px;
+    height: 35px;}
+.log{
+        margin-left:6%;
+}
+.logi{
+    margin-right:1%;
+}
+.let{ 
+    font-size:5px
+}
+nav a {
+    margin: 0 2px;
+    font-size:6px;
+} } 
+@media (min-width:360px) and (max-width:430px) 
+{header{padding:25px 0;
+    width:100%;
+    align-items: center;
+}
+header .logo { width: 35px;
+    height: 35px;}
+.log{
+        margin-left:8%;
+}
+.logi{
+    margin-right:1.5%;
+}
+.let{ 
+    font-size:7px
+}
+nav a {
+    margin: 0 2px;
+    font-size:8px;
+}
+
+    }
+
+@media (min-width:430px) and (max-width:530px)
+{header{padding: 25px 0;
+    width:100%;
+    align-items: center;
+}
+header .logo { width: 45px;
+    height: 45px;}
+.log{
+        margin-left:7%;
+}
+.logi{
+    margin-right:1.5%;
+}
+.let{ 
+    font-size:7px
+}
+nav a {
+    margin: 0 2px;
+    font-size:9px;
+}} 
+
+@media (min-width:531px) and (max-width:576px)
+{header{padding: 25px 0;
+    width:100%;
+    align-items: center;
+}
+header .logo { width: 45px;
+    height: 45px;}
+.log{
+        margin-left:10%;
+}
+.logi{
+    margin-right:1.5%;
+}
+.let{ 
+    font-size:7px
+}
+nav a {
+    margin: 0 2px;
+    font-size:10px;
+}} 
+
+
+    @media (min-width:681px) and (max-width: 720px) {
+
+        header{padding: 20px 0;
+            width:100%;
+        }
+        header .logo { width: 85px;
+            height: 85px;}
+        .log{
+                margin-left:8%;
+        }
+        .logi{
+            margin-right:8%;
+        }
+        .let h1 { 
+            font-size:20px;
+            margin-left:0.1%;
+            margin-right:0.1%;
+        }
+        nav a {
+            margin: 0 2px;
+            font-size:12px;
+        }
+    
+    }
+    
+    @media (min-width:577px) and (max-width: 680px) {
+    
+        header{padding: 15px 0;
+            width:100%;
+        }
+        header .logo { width: 65px;
+            height: 65px;}
+        .log{
+                margin-left:8%;
+        }
+        .logi{
+            margin-right:7%;
+        }
+        .let h1 { 
+            font-size:16px;
+            margin-left:1%;
+            margin-right:1%;
+        }
+        nav a {
+            margin: 0 2px;
+            font-size:10px;
+        }
+    
+    }
+
+    @media (min-width:721px) and (max-width:768px) {
+       
+        header{padding: 15px 0;
+            width:100%;
+        }
+        header .logo { width: 80px;
+            height: 80px;}
+        .log{
+                margin-left:4.5%;
+        }
+        .logi{
+            margin-right:2%;
+        }
+        .let h1 { 
+            font-size:24px;
+            margin-left:0.1%;
+            margin-right:0.1%;
+        }
+
+        nav a {
+            margin: 0 5px;
+            font-size:18px;
+            margin-left:3px;
+            margin-right:0.1px;
+        }
+    
+
+     } 
+
+     @media (min-width:769px) and (max-width:800px) {
+       
+        header{padding: 15px 0;
+            width:100%;
+        }
+        header .logo { width: 80px;
+            height: 80px;}
+        .log{
+                margin-left:7%;
+        }
+        .logi{
+            margin-right:2%;
+        }
+        .let h1 { 
+            font-size:24px;
+            margin-left:0.1%;
+            margin-right:0.1%;
+        }
+    
+        nav a {
+            margin: 0 5px;
+            font-size:18px;
+            margin-left:0.1px;
+            margin-right:0.1px;
+        }
+    
+    
+     } 
+    
+     @media (min-width:801px) and (max-width:900px) {
+       
+        header{padding: 20px 0;
+            width:100%;
+        }
+        header .logo { width: 85px;
+            height: 85px;}
+        .log{
+                margin-left:7%;
+        }
+        .logi{
+            margin-right:7%;
+        }
+        .let h1 { 
+            font-size:24px;
+            margin-left:0.1%;
+            margin-right:0.1%;
+        }
+    
+        nav a {
+            margin: 0 8px;
+            font-size:18px;
+            margin-left:0.1px;
+            margin-right:0.1px;
+        }
+    
+    
+     }
+
+     @media (min-width:901px) and (max-width:990px) {
+       
+        header{padding: 20px 0;
+            width:100%;
+        }
+        header .logo { width: 85px;
+            height: 85px;}
+        .log{
+                margin-left:8%;
+        }
+        .logi{
+            margin-right:8%;
+        }
+        .let h1 { 
+            font-size:24px;
+            margin-left:0.1%;
+            margin-right:0.1%;
+        }
+    
+        nav a {
+            margin: 0 15px;
+            font-size:18px;
+            margin-left:7px;
+            margin-right:0.1px;
+        }
+    
+    
+     }
+
+
+     @media (min-width:991px) and (max-width:1100px) {
+       
+        header{padding: 20px 0;
+            width:100%;
+        }
+        header .logo { width: 85px;
+            height: 85px;}
+        .log{
+                margin-left:12%;
+        }
+        .logi{
+            margin-right:8%;
+        }
+        .let h1 { 
+            font-size:24px;
+            margin-left:0.1%;
+            margin-right:0.1%;
+        }
+    
+        nav a {
+            margin: 0 15px;
+            font-size:18px;
+            margin-left:7px;
+            margin-right:0.1px;
+        }
+    
+    
+     }
+    
+     @media (min-width:1101px) and (max-width:1250px) { 
+    
+        header{padding: 20px 0;
+            width:100%;
+        }
+        header .logo { width: 85px;
+            height: 85px;}
+        .log{
+                margin-left:16%;
+        }
+        .logi{
+            margin-right:8%;
+        }
+        .let h1 { 
+            font-size:24px;
+            margin-left:4%;
+            margin-right:0.1%;
+        }
+        .let {
+            margin-left:9%;
+            margin-right:10%;
+        }
+        nav a {
+            margin: 0 15px;
+            font-size:18px;
+            margin-left:7px;
+            margin-right:0.1px;
+        }
+    
+     }
+
+
+       
+         @media (min-width:1500px) and (max-width:2000px) {
+            header{padding: 120px 0;
+                width:100%;
+            }
+            header .logo { width: 150px;
+                height: 150px;}
+            .log{
+                    margin-left:14%;
+            }
+            .logi{
+                margin-right:8%;
+            }
+            .let h1 { 
+                font-size:35px;
+                margin-left:4%;
+                margin-right:0.1%;
+            }
+            .let {
+                margin-left:9%;
+                margin-right:10%;
+            }
+            nav a {
+                margin: 0 15px;
+                font-size:25px;
+                margin-left:7px;
+                margin-right:0.1px;
+            }
+        
+
+
+           } 
